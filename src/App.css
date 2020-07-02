@@ -161,6 +161,9 @@
   font-size: 1.7em;
   margin-top: 12px;
 }
+.experiences-detail {
+  font-size: 1.2em;
+}
 .experiences-date {
   font-size: 1.3em;
   font-weight: bold;
@@ -334,8 +337,11 @@
     margin: auto;
   }
   .experiences-position {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 12px;
+  }
+  .experiences-detail {
+    font-size: 1em;
   }
   .experiences-date {
     font-size: 0.8em;
