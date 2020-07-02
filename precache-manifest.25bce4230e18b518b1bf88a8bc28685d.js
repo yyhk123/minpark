@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da406179b7248fd5cb29923531ff5371",
+    "revision": "53adc2b0c9b3c0c16912270559d17396",
     "url": "/minpark/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/minpark/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "f5e2079677cc614a320b",
+    "revision": "ffce57518b4dddd30e0c",
     "url": "/minpark/static/css/main.c2df5a12.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/minpark/static/js/2.008056ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f5e2079677cc614a320b",
-    "url": "/minpark/static/js/main.ba0ba235.chunk.js"
+    "revision": "ffce57518b4dddd30e0c",
+    "url": "/minpark/static/js/main.5441be62.chunk.js"
   },
   {
     "revision": "d5ccb22460e5cfa52003",
