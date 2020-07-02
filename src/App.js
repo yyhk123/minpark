@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-// import Main from "./components/main";
+import Main from "./components/main";
 import LandingPage from "./components/landingpage";
 import AboutMe from "./components/aboutme";
 import Experiences from "./components/experiences";
@@ -11,7 +11,7 @@ import Footer from "./components/footer";
 function App() {
   return (
     <div>
-      <LandingPage />
+      <Main />
       <AboutMe />
       <Experiences />
       <Skills />
