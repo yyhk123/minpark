@@ -4,10 +4,7 @@ import LandingPage from "./landingpage";
 
 const Main = () => (
   <Switch>
-    <Route exact path="/landingpage" component={LandingPage} />
-    <Route exact path="/">
-      <Redirect to="landingpage" />
-    </Route>
+    <Route exact path="/" component={LandingPage} />
   </Switch>
 );
 
