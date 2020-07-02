@@ -10,4 +10,4 @@ const Main = () => (
 
 export default Main;
 
-// need to learn more how to use it!
+// do not need react-router-dom for this project

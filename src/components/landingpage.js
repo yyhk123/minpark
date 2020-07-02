@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { Link } from "react-scroll";
 
 class LandingPage extends Component {
   constructor() {
@@ -30,21 +31,56 @@ class LandingPage extends Component {
         <div id="header" className={this.state.show ? "active" : "hidden"}>
           <div className="header-menu">
             <ul style={{ listStyle: "none" }}>
-              <li className="header-li">
-                <AnchorLink href="#home">Home</AnchorLink>
-              </li>
-              <li className="header-li">
-                <AnchorLink href="#about">About</AnchorLink>
-              </li>
-              <li className="header-li">
-                <AnchorLink href="#experiences">Experiences</AnchorLink>
-              </li>
-              <li className="header-li">
-                <AnchorLink href="#skills">Skills</AnchorLink>
-              </li>
-              <li className="header-li">
-                <AnchorLink href="#projects">Projects</AnchorLink>
-              </li>
+              <Link
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              >
+                <li className="header-li">Home</li>
+              </Link>
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              >
+                <li className="header-li">About</li>
+              </Link>
+              <Link
+                activeClass="active"
+                to="experiences"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              >
+                <li className="header-li">Experiences</li>
+              </Link>
+              <Link
+                activeClass="active"
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              >
+                <li className="header-li">Skills</li>
+              </Link>
+              <Link
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              >
+                <li className="header-li">Projects</li>
+              </Link>
             </ul>
           </div>
         </div>

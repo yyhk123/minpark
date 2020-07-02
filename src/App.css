@@ -46,10 +46,11 @@
 }
 .header-menu ul li {
   display: inline;
+  color: #c4c9bf;
+  font-weight: bold;
 }
-.header-menu ul li a {
-  color: #fff;
-  text-decoration: none;
+.header-menu ul li:hover {
+  color: white;
 }
 .header-li {
   font-size: 1.3em;
