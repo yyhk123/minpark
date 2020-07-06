@@ -1,7 +1,9 @@
 * {
   font-family: "Roboto", sans-serif;
 }
-
+.mdl-cell {
+  margin: 0;
+}
 /* main img */
 .mainimg {
   background-image: url("./image/main.jpg");
@@ -36,9 +38,10 @@
   float: right;
   position: fixed;
   width: 94%;
+  top: 0;
+  z-index: 9;
 }
 .header-menu {
-  padding-top: 14px;
   float: right;
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
@@ -162,6 +165,9 @@
   font-size: 1.7em;
   margin-top: 12px;
 }
+.expereinces-detail-container {
+  padding: 8px;
+}
 .experiences-detail {
   font-size: 1.2em;
 }
@@ -253,6 +259,7 @@
 /* footer */
 .footer {
   background: #e7e6e6;
+  height: 1000px;
 }
 
 /* media */
@@ -286,9 +293,6 @@
   /* main description */
   .intro-text {
     padding: 2% 0;
-  }
-  .mdl-cell {
-    margin: 0px;
   }
   .intro-text h1 {
     margin-top: 0;
@@ -345,7 +349,7 @@
     font-size: 1em;
   }
   .experiences-date {
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: bold;
     text-align: center;
     margin: auto;
@@ -370,7 +374,7 @@
     display: block;
   }
   .skills-title {
-    font-size: 1.5em;
+    font-size: 3em;
   }
   .col-2 {
     margin: auto;

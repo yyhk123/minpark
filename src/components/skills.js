@@ -70,18 +70,6 @@ class Skills extends Component {
               </tbody>
             </table>
           </div>
-          {/* <div className="col-10">
-            <div className="graph">
-              <span className="bar-item">html</span>
-              <div className="bar-wrap">
-                <div className="bar"></div>
-              </div>
-              <span className="bar-item">html</span>
-              <div className="bar-wrap">
-                <div className="bar"></div>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     );
