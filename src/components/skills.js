@@ -1,15 +1,16 @@
 import React, { Component } from "react";
+import { Grid, Cell } from "react-mdl";
 import $ from "jquery";
 
 class Skills extends Component {
   render() {
     return (
       <div className="skills" id="skills">
-        <div className="row">
-          <div className="col-2">
+        <Grid className="row">
+          <Cell col={2} className="skills-title-content">
             <h1 className="skills-title">Skills</h1>
-          </div>
-          <div className="col-10">
+          </Cell>
+          <Cell col={10} className="skills-graph">
             <table className="graph">
               <tbody>
                 <tr>
@@ -70,8 +71,8 @@ class Skills extends Component {
                 </tr>
               </tbody>
             </table>
-          </div>
-        </div>
+          </Cell>
+        </Grid>
       </div>
     );
   }

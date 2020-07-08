@@ -7,6 +7,7 @@
 .mdl-grid {
   margin: 0;
 }
+
 /* main img */
 .mainimg {
   background-image: url("./image/main.jpg");
@@ -190,7 +191,7 @@
   margin: auto;
   padding: 4% 0;
 }
-.col-2 {
+.skills-title-content {
   display: flex; /*여기부터 3개가 좌우 위아래 가운데 맞추는법*/
   justify-content: center;
   align-items: center;
@@ -374,22 +375,27 @@
   .skills-title {
     margin: 10% auto;
   }
+  .skills-title-content {
+    margin: auto !important;
+  }
+  .skills-graph {
+    margin: auto !important;
+  }
   .skills .row {
     display: block;
   }
   .skills-title {
     font-size: 3em;
   }
-  .col-2 {
-    margin: auto;
-  }
-  .col-10 {
-    margin: auto;
-    padding: 0;
-  }
   .graph {
     width: 100%;
     font-size: 0.8em;
+  }
+  .graph tbody tr {
+    width: 100%;
+  }
+  .graph-item {
+    font-size: 1.2em;
   }
   .graph-spacing {
     padding-bottom: 5px;
