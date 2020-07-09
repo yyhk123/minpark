@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8642f4550acf23de1a076910e757812a",
+    "revision": "40bcec58042c6396336dd4b0e54cdb36",
     "url": "/minpark/index.html"
   },
   {
-    "revision": "9068e0a000be4795676f",
+    "revision": "4885dfd7a3423edf380b",
     "url": "/minpark/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "dd204d9e0109ca7add6b",
-    "url": "/minpark/static/css/main.00ea9aa9.chunk.css"
+    "revision": "f4954c5e6ade99ccec14",
+    "url": "/minpark/static/css/main.0834da7e.chunk.css"
   },
   {
-    "revision": "9068e0a000be4795676f",
-    "url": "/minpark/static/js/2.ca7493dd.chunk.js"
+    "revision": "4885dfd7a3423edf380b",
+    "url": "/minpark/static/js/2.c3df3487.chunk.js"
   },
   {
     "revision": "ab3ed49c9114327d36bee72995bc6076",
-    "url": "/minpark/static/js/2.ca7493dd.chunk.js.LICENSE.txt"
+    "url": "/minpark/static/js/2.c3df3487.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd204d9e0109ca7add6b",
-    "url": "/minpark/static/js/main.baab4181.chunk.js"
+    "revision": "f4954c5e6ade99ccec14",
+    "url": "/minpark/static/js/main.a60d543a.chunk.js"
   },
   {
     "revision": "d5ccb22460e5cfa52003",
