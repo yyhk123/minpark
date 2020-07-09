@@ -192,6 +192,7 @@
   padding: 4% 0;
 }
 .skills-title-content {
+  margin: 0 10px;
   display: flex; /*여기부터 3개가 좌우 위아래 가운데 맞추는법*/
   justify-content: center;
   align-items: center;
@@ -213,7 +214,7 @@
   border-radius: 5px;
 }
 .bar {
-  animation: bar-before 1 1.8s;
+  /* animation: bar-before 1 1.8s; */
   border-radius: 5px;
   padding: 10px;
 }
@@ -401,7 +402,6 @@
     padding-bottom: 5px;
   }
   .bar {
-    animation: bar-before 1 1.8s;
     border-radius: 5px;
     padding: 5px;
   }

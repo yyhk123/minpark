@@ -2,6 +2,16 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import $ from "jquery";
 
+$(window).scroll(function () {
+  var scrollToVid = $("#skills").offset().top;
+  console.log(scrollToVid);
+  var iHeight = $("#skills").height();
+
+  if ($(window).scrollTop() >= scrollToVid - iHeight - 100) {
+    $(".bar").css("animation", "bar-before 1 1.8s");
+  }
+});
+
 class Skills extends Component {
   render() {
     return (
