@@ -282,6 +282,12 @@
   width: 65%;
   margin: auto;
 }
+.projects .mdl-cell {
+  margin: 8px;
+}
+.projects .mdl-grid {
+  margin: 8px;
+}
 
 /* footer */
 .footer {
