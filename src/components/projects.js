@@ -29,6 +29,7 @@ class Projects extends Component {
                 </CardTitle>
               </Card>
             </Cell>
+
             <Cell col={4}>
               <Card
                 shadow={0}
@@ -51,6 +52,7 @@ class Projects extends Component {
                 </CardTitle>
               </Card>
             </Cell>
+
             <Cell col={4}>
               <Card
                 shadow={0}
@@ -73,6 +75,7 @@ class Projects extends Component {
                 </CardTitle>
               </Card>
             </Cell>
+
             <Cell col={4}>
               <Card
                 shadow={0}
@@ -94,6 +97,7 @@ class Projects extends Component {
                 </CardTitle>
               </Card>
             </Cell>
+
             <Cell col={4}>
               <Card
                 shadow={0}
@@ -116,6 +120,7 @@ class Projects extends Component {
                 </CardTitle>
               </Card>
             </Cell>
+
             <Cell col={4}>
               <Card
                 shadow={0}
