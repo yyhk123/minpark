@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Fade from "react-reveal/Fade";
 import { Grid, Cell } from "react-mdl";
+import { Fade } from "react-reveal";
 
 class Experiences extends Component {
   render() {

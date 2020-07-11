@@ -4,7 +4,6 @@ import $ from "jquery";
 
 $(window).scroll(function () {
   var scrollToVid = $("#skills").offset().top;
-  console.log(scrollToVid);
   var iHeight = $("#skills").height();
 
   if ($(window).scrollTop() >= scrollToVid - iHeight - 100) {
@@ -18,7 +17,10 @@ class Skills extends Component {
       <div className="skills" id="skills">
         <Grid className="row">
           <Cell col={2} className="skills-title-content">
-            <h1 className="skills-title">Skills</h1>
+            <h1 className="skills-title">
+              Skills
+              <hr></hr>
+            </h1>
           </Cell>
           <Cell col={10} className="skills-graph">
             <table className="graph">

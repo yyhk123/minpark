@@ -7,6 +7,17 @@
 .mdl-grid {
   margin: 0;
 }
+.mdl-card {
+  position: static !important;
+}
+.react-reveal {
+  animation-fill-mode: none !important;
+}
+.fadeIn {
+  opacity: 0;
+  margin-top: 300px;
+  max-width: 100%;
+}
 
 /* main img */
 .mainimg {
@@ -115,19 +126,25 @@
   margin: auto;
   padding: 5% 0;
 }
-.aboutme-container {
-  position: relative;
-}
+
 .aboutme-head {
   display: flex; /*여기부터 3개가 좌우 위아래 가운데 맞추는법*/
   justify-content: center;
   align-items: center;
 }
+.aboutme-head h1 hr {
+  display: block;
+  height: 2px;
+  width: 65px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: auto;
+  background: #7b7cd4;
+}
 .aboutme-head h1 {
   font-size: 4em;
 }
-.aboutme-head h1 hr {
-  display: block;
+.aboutme-underline {
   height: 2px;
   width: 65px;
   border: 0;
@@ -181,9 +198,6 @@
   text-align: right;
   margin-bottom: 0;
 }
-.experiences-container hr {
-  display: none;
-}
 
 /* skills */
 .skills {
@@ -192,10 +206,18 @@
   padding: 4% 0;
 }
 .skills-title-content {
-  margin: 0 10px;
+  padding-right: 20px;
   display: flex; /*여기부터 3개가 좌우 위아래 가운데 맞추는법*/
   justify-content: center;
   align-items: center;
+}
+.skills-title hr {
+  height: 2px;
+  width: 65px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: auto;
+  background: #7b7cd4;
 }
 .graph {
   width: 100%;
@@ -218,7 +240,6 @@
   border-radius: 5px;
   padding: 10px;
 }
-
 @keyframes bar-before {
   0% {
     width: 0px;
@@ -255,10 +276,11 @@
 
 /* projects */
 .projects {
-  width: 85%;
+  background: #f7f4f4;
+}
+.projects-container {
+  width: 65%;
   margin: auto;
-  background: #7c7c80;
-  height: 100vh;
 }
 
 /* footer */
@@ -321,15 +343,22 @@
     width: 95%;
     padding: 6% 0;
     margin: auto;
-    position: relative;
   }
   .aboutme-container {
-    justify-content: center;
+    display: block !important;
+  }
+  .aboutme-head {
+    margin: auto !important;
   }
   .aboutme-head h1 {
     font-size: 3em;
     margin-top: 0;
     margin-bottom: 15px;
+  }
+  .aboutme-content {
+    padding-top: 20px;
+    margin: auto !important;
+    width: 95% !important;
   }
 
   /* experiences */
@@ -367,7 +396,6 @@
   }
 
   /* skills */
-
   .skills {
     width: 95%;
     margin: auto;
@@ -380,7 +408,9 @@
     margin: auto !important;
   }
   .skills-graph {
+    padding-top: 15px;
     margin: auto !important;
+    width: 95% !important;
   }
   .skills .row {
     display: block;
@@ -404,5 +434,11 @@
   .bar {
     border-radius: 5px;
     padding: 5px;
+  }
+
+  /* projects */
+  .projects-container {
+    width: 95%;
+    margin: auto;
   }
 }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Fade from "react-reveal/Fade";
 import { Grid, Cell } from "react-mdl";
+import { Fade } from "react-reveal";
 
 class AboutMe extends Component {
   render() {
@@ -11,7 +11,7 @@ class AboutMe extends Component {
             <Cell col={4} className="aboutme-head">
               <h1>
                 About Me
-                <hr></hr>
+                <hr />
               </h1>
             </Cell>
             <Cell col={8} className="aboutme-content">
