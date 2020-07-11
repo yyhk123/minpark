@@ -1,12 +1,12 @@
 * {
   font-family: "Roboto", sans-serif;
 }
-.mdl-cell {
+/* .mdl-cell {
   margin: 0;
 }
 .mdl-grid {
   margin: 0;
-}
+} */
 .mdl-card {
   position: static !important;
 }
@@ -281,12 +281,6 @@
 .projects-container {
   width: 65%;
   margin: auto;
-}
-.projects .mdl-cell {
-  margin: 8px;
-}
-.projects .mdl-grid {
-  margin: 8px;
 }
 
 /* footer */
