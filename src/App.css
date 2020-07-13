@@ -277,10 +277,14 @@
 /* projects */
 .projects {
   background: #f7f4f4;
+  padding: 2% 0 4% 0;
 }
 .projects-container {
   width: 65%;
   margin: auto;
+}
+.projects-head {
+  text-align: center;
 }
 
 /* footer */
@@ -440,5 +444,8 @@
   .projects-container {
     width: 95%;
     margin: auto;
+  }
+  .projects-head {
+    font-size: 3em;
   }
 }

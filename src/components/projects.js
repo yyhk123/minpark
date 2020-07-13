@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell, Card, CardTitle } from "react-mdl";
+import { Grid, Cell, Card, CardTitle, CardActions, Button } from "react-mdl";
 import { Fade } from "react-reveal";
 
 class Projects extends Component {
@@ -7,6 +7,8 @@ class Projects extends Component {
     return (
       <div className="projects" id="projects">
         <Fade bottom>
+          <h1 className="projects-head">Experiences</h1>
+
           <Grid className="projects-container">
             <Cell col={4}>
               <Card
@@ -22,11 +24,36 @@ class Projects extends Component {
                   style={{
                     color: "#fff",
                     background:
-                      "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC",
+                      "url(https://i.imgur.com/vNCZ5Y5.png) bottom right 15% no-repeat",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
                   }}
                 >
-                  Update
+                  ReactJS Portfolio
                 </CardTitle>
+                <CardActions border>
+                  <Button
+                    colored
+                    href="https://github.com/yyhk123/minpark"
+                    target="_blank"
+                    style={{
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Github
+                  </Button>
+                  <Button
+                    colored
+                    href="https://yyhk123.github.io/minpark/"
+                    target="_blank"
+                    style={{
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Live Demo
+                  </Button>
+                </CardActions>
               </Card>
             </Cell>
 
@@ -45,11 +72,36 @@ class Projects extends Component {
                     width: "auto",
                     color: "#fff",
                     background:
-                      "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC",
+                      "url(https://i.imgur.com/Qz1cch0.png) bottom right 15% no-repeat",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
                   }}
                 >
-                  Update
+                  Graduation Project
                 </CardTitle>
+                <CardActions border>
+                  <Button
+                    colored
+                    href="https://github.com/CS4800-Team-MAKER/ChatTest"
+                    target="_blank"
+                    style={{
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Github
+                  </Button>
+                  <Button
+                    colored
+                    href="http://bronco.chat/"
+                    target="_blank"
+                    style={{
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Live Demo
+                  </Button>
+                </CardActions>
               </Card>
             </Cell>
 
@@ -66,13 +118,29 @@ class Projects extends Component {
                   expand
                   style={{
                     width: "auto",
-                    color: "#fff",
+                    color: "black",
                     background:
-                      "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC",
+                      "url(https://i.imgur.com/7gogR3m.png) bottom right 15% no-repeat",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
                   }}
                 >
-                  Update
+                  Connect 4 vs AI (Java)
                 </CardTitle>
+                <CardActions border>
+                  <Button
+                    colored
+                    colored
+                    href="https://github.com/yyhk123/4-in-a-line"
+                    target="_blank"
+                    style={{
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Github
+                  </Button>
+                </CardActions>
               </Card>
             </Cell>
 
@@ -88,13 +156,29 @@ class Projects extends Component {
                 <CardTitle
                   expand
                   style={{
-                    color: "#fff",
+                    color: "black",
+                    fontWeight: "bold",
                     background:
-                      "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC",
+                      "url(https://i.imgur.com/3RAwcY4.png) bottom right 15% no-repeat",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
                   }}
                 >
-                  Update
+                  8 Queen (Java)
                 </CardTitle>
+                <CardActions border>
+                  <Button
+                    colored
+                    href="https://github.com/yyhk123/8queen"
+                    target="_blank"
+                    style={{
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Github
+                  </Button>
+                </CardActions>
               </Card>
             </Cell>
 
@@ -111,13 +195,38 @@ class Projects extends Component {
                   expand
                   style={{
                     width: "auto",
-                    color: "#fff",
+                    color: "black",
                     background:
-                      "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC",
+                      "url(https://i.imgur.com/U3OzIBS.png) bottom right 15% no-repeat",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
                   }}
                 >
-                  Update
+                  Website Mockup Practice
                 </CardTitle>
+                <CardActions border>
+                  <Button
+                    colored
+                    href="https://github.com/yyhk123/practice"
+                    target="_blank"
+                    style={{
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Github
+                  </Button>
+                  <Button
+                    colored
+                    href="https://yyhk123.github.io/practice/"
+                    target="_blank"
+                    style={{
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Live Demo
+                  </Button>
+                </CardActions>
               </Card>
             </Cell>
 
@@ -134,13 +243,38 @@ class Projects extends Component {
                   expand
                   style={{
                     width: "auto",
-                    color: "#fff",
+                    color: "black",
                     background:
-                      "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC",
+                      "url(https://i.imgur.com/r2ioq4G.png) bottom right 15% no-repeat #46B6AC",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
                   }}
                 >
-                  Update
+                  Google AI Image Recognition
                 </CardTitle>
+                <CardActions border>
+                  <Button
+                    colored
+                    href="https://github.com/yyhk123/aibts/tree/master"
+                    target="_blank"
+                    style={{
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Github
+                  </Button>
+                  <Button
+                    colored
+                    href="http://mybts.net/"
+                    target="_blank"
+                    style={{
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Live Demo
+                  </Button>
+                </CardActions>
               </Card>
             </Cell>
           </Grid>
