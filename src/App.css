@@ -279,6 +279,9 @@
   background: #f7f4f4;
   padding: 2% 0 4% 0;
 }
+.card {
+  height: 270px !important;
+}
 .projects-container {
   width: 65%;
   margin: auto;
@@ -289,8 +292,14 @@
 
 /* footer */
 .footer {
-  background: #e7e6e6;
-  height: 1000px;
+  padding: 3% 0;
+}
+.footer-head {
+  text-align: center;
+}
+.footer-container {
+  margin: auto;
+  width: 65%;
 }
 
 /* media */
@@ -447,5 +456,16 @@
   }
   .projects-head {
     font-size: 3em;
+  }
+
+  /* contact me */
+  .footer-container {
+    width: 95%;
+  }
+  .footer-head {
+    font-size: 3em;
+  }
+  .footer-head {
+    margin-bottom: 0;
   }
 }

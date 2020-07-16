@@ -1,5 +1,13 @@
 import React, { Component } from "react";
-import { Grid, Cell, Card, CardTitle, CardActions, Button } from "react-mdl";
+import {
+  Grid,
+  Cell,
+  Card,
+  CardTitle,
+  CardActions,
+  Button,
+  CardText,
+} from "react-mdl";
 import { Fade } from "react-reveal";
 
 class Projects extends Component {
@@ -7,10 +15,10 @@ class Projects extends Component {
     return (
       <div className="projects" id="projects">
         <Fade bottom>
-          <h1 className="projects-head">Experiences</h1>
+          <h1 className="projects-head">Projects</h1>
 
           <Grid className="projects-container">
-            <Cell col={4}>
+            <Cell col={4} className="card">
               <Card
                 shadow={0}
                 style={{
@@ -29,9 +37,10 @@ class Projects extends Component {
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                   }}
-                >
+                ></CardTitle>
+                <CardText style={{ fontWeight: "bold" }}>
                   ReactJS Portfolio
-                </CardTitle>
+                </CardText>
                 <CardActions border>
                   <Button
                     colored
@@ -57,7 +66,7 @@ class Projects extends Component {
               </Card>
             </Cell>
 
-            <Cell col={4}>
+            <Cell col={4} className="card">
               <Card
                 shadow={0}
                 style={{
@@ -77,9 +86,10 @@ class Projects extends Component {
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                   }}
-                >
+                ></CardTitle>
+                <CardText style={{ fontWeight: "bold" }}>
                   Graduation Project
-                </CardTitle>
+                </CardText>
                 <CardActions border>
                   <Button
                     colored
@@ -105,7 +115,7 @@ class Projects extends Component {
               </Card>
             </Cell>
 
-            <Cell col={4}>
+            <Cell col={4} className="card">
               <Card
                 shadow={0}
                 style={{
@@ -125,9 +135,10 @@ class Projects extends Component {
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                   }}
-                >
+                ></CardTitle>
+                <CardText style={{ fontWeight: "bold" }}>
                   Connect 4 vs AI (Java)
-                </CardTitle>
+                </CardText>
                 <CardActions border>
                   <Button
                     colored
@@ -144,7 +155,7 @@ class Projects extends Component {
               </Card>
             </Cell>
 
-            <Cell col={4}>
+            <Cell col={4} className="card">
               <Card
                 shadow={0}
                 style={{
@@ -164,9 +175,10 @@ class Projects extends Component {
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                   }}
-                >
+                ></CardTitle>
+                <CardText style={{ fontWeight: "bold" }}>
                   8 Queen (Java)
-                </CardTitle>
+                </CardText>
                 <CardActions border>
                   <Button
                     colored
@@ -182,7 +194,7 @@ class Projects extends Component {
               </Card>
             </Cell>
 
-            <Cell col={4}>
+            <Cell col={4} className="card">
               <Card
                 shadow={0}
                 style={{
@@ -202,9 +214,10 @@ class Projects extends Component {
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                   }}
-                >
+                ></CardTitle>
+                <CardText style={{ fontWeight: "bold" }}>
                   Website Mockup Practice
-                </CardTitle>
+                </CardText>
                 <CardActions border>
                   <Button
                     colored
@@ -230,7 +243,7 @@ class Projects extends Component {
               </Card>
             </Cell>
 
-            <Cell col={4}>
+            <Cell col={4} className="card">
               <Card
                 shadow={0}
                 style={{
@@ -250,9 +263,10 @@ class Projects extends Component {
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                   }}
-                >
+                ></CardTitle>
+                <CardText style={{ fontWeight: "bold" }}>
                   Google AI Image Recognition
-                </CardTitle>
+                </CardText>
                 <CardActions border>
                   <Button
                     colored
