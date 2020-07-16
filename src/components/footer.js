@@ -9,8 +9,9 @@ import {
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 
 const mapStyles = {
-  width: "100%",
-  height: "100%",
+  position: "relative",
+  width: "100px",
+  height: "100px",
 };
 class Footer extends Component {
   render() {
@@ -77,16 +78,25 @@ class Footer extends Component {
               </List>
             </Cell>
             <Cell col={6}>
-              <Map google={this.props.google} zoom={14}>
+              <Map
+                className="googlemap"
+                google={this.props.google}
+                zoom={14}
+                initialCenter={{
+                  lat: 33.080983,
+                  lng: -96.818925,
+                }}
+                zoom={17}
+              >
                 <Marker
                   onClick={this.onMarkerClick}
                   name={"Current location"}
                 />
 
                 <InfoWindow onClose={this.onInfoWindowClose}>
-                  {/* <div>
-                    <h1>{this.state.selectedPlace.name}</h1>
-                  </div> */}
+                  <div>
+                    <h1>here</h1>
+                  </div>
                 </InfoWindow>
               </Map>
             </Cell>

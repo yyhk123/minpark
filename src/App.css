@@ -299,7 +299,12 @@
 }
 .footer-container {
   margin: auto;
-  width: 65%;
+  width: 75%;
+}
+.googlemap {
+  position: relative !important;
+  height: 100% !important;
+  width: 100% !important;
 }
 
 /* media */
