@@ -320,6 +320,14 @@
 }
 
 @media (max-width: 1200px) {
+  .projects-container {
+    width: 75%;
+  }
+  .footer-container {
+    margin: auto;
+    width: 72%;
+  }
+
   .btn {
     font-size: 1em !important;
   }
