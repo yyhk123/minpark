@@ -1,5 +1,6 @@
 * {
   font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
 }
 /* .mdl-cell {
   margin: 0;
@@ -299,12 +300,32 @@
 }
 .footer-container {
   margin: auto;
-  width: 75%;
+  width: 72%;
 }
 .googlemap {
   position: relative !important;
-  height: 100% !important;
-  width: 100% !important;
+}
+.info-container {
+  height: 400px;
+}
+.map-container {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  font-size: 1.3em !important;
+}
+.info-container svg {
+  font-size: 2.3em;
+}
+
+@media (max-width: 1200px) {
+  .btn {
+    font-size: 1em !important;
+  }
+  .info-container svg {
+    font-size: 2em !important;
+  }
 }
 
 /* media */
@@ -472,5 +493,28 @@
   }
   .footer-head {
     margin-bottom: 0;
+  }
+
+  .info-container {
+    height: 800px;
+    display: flex; /*여기부터 3개가 좌우 위아래 가운데 맞추는법*/
+    justify-content: center;
+    align-items: center;
+  }
+  .info-container svg {
+    font-size: 1.5em !important;
+  }
+  .btn {
+    font-size: 1em !important;
+  }
+  .contact-container {
+    width: 100% !important;
+    justify-content: center;
+    display: flex;
+  }
+
+  .map-container {
+    height: 400px;
+    width: 150% !important;
   }
 }

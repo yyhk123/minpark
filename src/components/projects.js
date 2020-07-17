@@ -38,17 +38,12 @@ class Projects extends Component {
                     backgroundSize: "cover",
                   }}
                 ></CardTitle>
-                <CardText style={{ fontWeight: "bold" }}>
-                  ReactJS Portfolio
-                </CardText>
+                <CardText>ReactJS Portfolio</CardText>
                 <CardActions border>
                   <Button
                     colored
                     href="https://github.com/yyhk123/minpark"
                     target="_blank"
-                    style={{
-                      fontWeight: "bold",
-                    }}
                   >
                     Github
                   </Button>
@@ -56,9 +51,6 @@ class Projects extends Component {
                     colored
                     href="https://yyhk123.github.io/minpark/"
                     target="_blank"
-                    style={{
-                      fontWeight: "bold",
-                    }}
                   >
                     Live Demo
                   </Button>
@@ -87,17 +79,12 @@ class Projects extends Component {
                     backgroundSize: "cover",
                   }}
                 ></CardTitle>
-                <CardText style={{ fontWeight: "bold" }}>
-                  Graduation Project
-                </CardText>
+                <CardText>Graduation Project</CardText>
                 <CardActions border>
                   <Button
                     colored
                     href="https://github.com/CS4800-Team-MAKER/ChatTest"
                     target="_blank"
-                    style={{
-                      fontWeight: "bold",
-                    }}
                   >
                     Github
                   </Button>
@@ -136,18 +123,13 @@ class Projects extends Component {
                     backgroundSize: "cover",
                   }}
                 ></CardTitle>
-                <CardText style={{ fontWeight: "bold" }}>
-                  Connect 4 vs AI (Java)
-                </CardText>
+                <CardText>Connect 4 vs AI (Java)</CardText>
                 <CardActions border>
                   <Button
                     colored
                     colored
                     href="https://github.com/yyhk123/4-in-a-line"
                     target="_blank"
-                    style={{
-                      fontWeight: "bold",
-                    }}
                   >
                     Github
                   </Button>
@@ -176,17 +158,12 @@ class Projects extends Component {
                     backgroundSize: "cover",
                   }}
                 ></CardTitle>
-                <CardText style={{ fontWeight: "bold" }}>
-                  8 Queen (Java)
-                </CardText>
+                <CardText>8 Queen (Java)</CardText>
                 <CardActions border>
                   <Button
                     colored
                     href="https://github.com/yyhk123/8queen"
                     target="_blank"
-                    style={{
-                      fontWeight: "bold",
-                    }}
                   >
                     Github
                   </Button>
@@ -215,17 +192,12 @@ class Projects extends Component {
                     backgroundSize: "cover",
                   }}
                 ></CardTitle>
-                <CardText style={{ fontWeight: "bold" }}>
-                  Website Mockup Practice
-                </CardText>
+                <CardText>Website Mockup Practice</CardText>
                 <CardActions border>
                   <Button
                     colored
                     href="https://github.com/yyhk123/practice"
                     target="_blank"
-                    style={{
-                      fontWeight: "bold",
-                    }}
                   >
                     Github
                   </Button>
@@ -233,9 +205,6 @@ class Projects extends Component {
                     colored
                     href="https://yyhk123.github.io/practice/"
                     target="_blank"
-                    style={{
-                      fontWeight: "bold",
-                    }}
                   >
                     Live Demo
                   </Button>
@@ -264,28 +233,16 @@ class Projects extends Component {
                     backgroundSize: "cover",
                   }}
                 ></CardTitle>
-                <CardText style={{ fontWeight: "bold" }}>
-                  Google AI Image Recognition
-                </CardText>
+                <CardText>Google AI Image Recognition</CardText>
                 <CardActions border>
                   <Button
                     colored
                     href="https://github.com/yyhk123/aibts/tree/master"
                     target="_blank"
-                    style={{
-                      fontWeight: "bold",
-                    }}
                   >
                     Github
                   </Button>
-                  <Button
-                    colored
-                    href="http://mybts.net/"
-                    target="_blank"
-                    style={{
-                      fontWeight: "bold",
-                    }}
-                  >
+                  <Button colored href="http://mybts.net/" target="_blank">
                     Live Demo
                   </Button>
                 </CardActions>

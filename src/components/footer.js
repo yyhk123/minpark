@@ -19,74 +19,64 @@ class Footer extends Component {
       <div className="footer">
         <div className="footer-container">
           <h1 className="footer-head">Contact Me</h1>
-          <Grid>
-            <Cell col={6}>
+          <Grid className="info-container">
+            <Cell col={6} className="contact-container">
               <List>
                 <ListItem>
                   <ListItemContent>
-                    <ListItemContent>
-                      <IoMdMail
-                        style={{
-                          fontSize: "2em",
-                        }}
-                      />
-                      <Button href="mailto: minoook@hotmail.com">
-                        minoook@hotmail.com
-                      </Button>
-                    </ListItemContent>
+                    <IoMdMail />
+                    <Button href="mailto: minoook@hotmail.com" className="btn">
+                      minoook@hotmail.com
+                    </Button>
                   </ListItemContent>
                 </ListItem>
+
                 <ListItem>
                   <ListItemContent>
-                    <ListItemContent>
-                      <IoIosCall
-                        style={{
-                          fontSize: "2em",
-                        }}
-                      />
-                      <Button href="tel:+13106135525">(310) 613-5525</Button>
-                    </ListItemContent>
+                    <IoIosCall />
+                    <Button href="tel:+13106135525" className="btn">
+                      (310) 613-5525
+                    </Button>
                   </ListItemContent>
                 </ListItem>
+
                 <ListItem>
-                  <IoLogoLinkedin
-                    style={{
-                      fontSize: "2em",
-                    }}
-                  />
                   <ListItemContent>
+                    <IoLogoLinkedin />
                     <Button
                       href="https://linkedin.com/in/minwpark/"
                       target="_blank"
+                      className="btn"
                     >
                       linkedin.com/in/minwpark
                     </Button>
                   </ListItemContent>
                 </ListItem>
+
                 <ListItem>
-                  <IoLogoGithub
-                    style={{
-                      fontSize: "2em",
-                    }}
-                  />
                   <ListItemContent>
-                    <Button href="https://github.com/yyhk123/" target="_blank">
+                    <IoLogoGithub />
+                    <Button
+                      href="https://github.com/yyhk123/"
+                      target="_blank"
+                      className="btn"
+                    >
                       github.com/yyhk123
                     </Button>
                   </ListItemContent>
                 </ListItem>
               </List>
             </Cell>
-            <Cell col={6}>
+
+            <Cell col={6} className="map-container">
               <Map
                 className="googlemap"
                 google={this.props.google}
-                zoom={14}
                 initialCenter={{
                   lat: 33.080983,
                   lng: -96.818925,
                 }}
-                zoom={17}
+                zoom={15}
               >
                 <Marker
                   onClick={this.onMarkerClick}
