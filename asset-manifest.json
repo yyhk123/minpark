@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/minpark/static/css/main.c63eaa4b.chunk.css",
+    "main.css": "/minpark/static/css/main.b8d02660.chunk.css",
     "main.js": "/minpark/static/js/main.c4937f63.chunk.js",
     "main.js.map": "/minpark/static/js/main.c4937f63.chunk.js.map",
     "runtime-main.js": "/minpark/static/js/runtime-main.9db4dcc9.js",
@@ -9,10 +9,10 @@
     "static/js/2.2e6a5f68.chunk.js": "/minpark/static/js/2.2e6a5f68.chunk.js",
     "static/js/2.2e6a5f68.chunk.js.map": "/minpark/static/js/2.2e6a5f68.chunk.js.map",
     "index.html": "/minpark/index.html",
-    "precache-manifest.1c056e919f8bcd2a228799aa1e5b3b91.js": "/minpark/precache-manifest.1c056e919f8bcd2a228799aa1e5b3b91.js",
+    "precache-manifest.6cb5a25d4d0aca5e46b3e258c6f81dd5.js": "/minpark/precache-manifest.6cb5a25d4d0aca5e46b3e258c6f81dd5.js",
     "service-worker.js": "/minpark/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/minpark/static/css/2.e4346227.chunk.css.map",
-    "static/css/main.c63eaa4b.chunk.css.map": "/minpark/static/css/main.c63eaa4b.chunk.css.map",
+    "static/css/main.b8d02660.chunk.css.map": "/minpark/static/css/main.b8d02660.chunk.css.map",
     "static/js/2.2e6a5f68.chunk.js.LICENSE.txt": "/minpark/static/js/2.2e6a5f68.chunk.js.LICENSE.txt",
     "static/media/App.css": "/minpark/static/media/main.1552140c.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.9db4dcc9.js",
     "static/css/2.e4346227.chunk.css",
     "static/js/2.2e6a5f68.chunk.js",
-    "static/css/main.c63eaa4b.chunk.css",
+    "static/css/main.b8d02660.chunk.css",
     "static/js/main.c4937f63.chunk.js"
   ]
 }
