@@ -509,7 +509,7 @@
   }
   .contact-container {
     width: 100% !important;
-    justify-content: center;
+    justify-content: center; /* 여기 2개가 vertical center*/
     display: flex;
   }
 
