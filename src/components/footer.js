@@ -71,7 +71,7 @@ class Footer extends Component {
                   <ListItemContent>
                     <IoIosHome />
                     <Button
-                      href="http://maps.google.com/?q=1200 Plano Texas"
+                      href="http://maps.google.com/?q=Plano Texas"
                       target="_blank"
                       className="btn"
                     >
