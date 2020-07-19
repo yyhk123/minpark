@@ -5,6 +5,7 @@ import {
   IoIosCall,
   IoLogoLinkedin,
   IoLogoGithub,
+  IoIosHome,
 } from "react-icons/io";
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 
@@ -62,6 +63,19 @@ class Footer extends Component {
                       className="btn"
                     >
                       github.com/yyhk123
+                    </Button>
+                  </ListItemContent>
+                </ListItem>
+
+                <ListItem>
+                  <ListItemContent>
+                    <IoIosHome />
+                    <Button
+                      href="http://maps.google.com/?q=1200 Plano Texas"
+                      target="_blank"
+                      className="btn"
+                    >
+                      Plano, Texas
                     </Button>
                   </ListItemContent>
                 </ListItem>
