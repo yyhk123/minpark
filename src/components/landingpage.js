@@ -88,7 +88,7 @@ class LandingPage extends Component {
             <hr></hr>
             <div style={{ padding: "1% 0" }}>
               <span className="brief-skills">
-                HTML/CSS | JavaScript | React | Java | C++ | NodeJS | MongoDB
+                HTML/CSS | JavaScript | React | Java | C++ | NodeJS | MongoDBs
               </span>
             </div>
           </div>
