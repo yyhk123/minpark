@@ -72,6 +72,7 @@ class LandingPage extends Component {
                 activeClass="active"
                 to="projects"
                 spy={true}
+                git
                 smooth={true}
                 offset={0}
                 duration={1000}
@@ -96,5 +97,4 @@ class LandingPage extends Component {
     );
   }
 }
-
 export default LandingPage;
