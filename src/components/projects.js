@@ -248,6 +248,47 @@ class Projects extends Component {
                 </CardActions>
               </Card>
             </Cell>
+
+            <Cell col={4} className="card">
+              <Card
+                shadow={0}
+                style={{
+                  width: "auto",
+                  height: "100%",
+                  margin: "auto",
+                }}
+              >
+                <CardTitle
+                  expand
+                  style={{
+                    width: "auto",
+                    color: "black",
+                    background:
+                      "url(https://i.imgur.com/r2ioq4G.png) bottom right 15% no-repeat #46B6AC",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                  }}
+                ></CardTitle>
+                <CardText>Python - Binary Search Tree</CardText>
+                <CardActions border>
+                  <Button
+                    colored
+                    href="https://github.com/yyhk123/Python-BST/tree/master"
+                    target="_blank"
+                  >
+                    Github
+                  </Button>
+                  <Button
+                    colored
+                    href="https://github.com/yyhk123/Python-BST/tree/master"
+                    target="_blank"
+                  >
+                    Live Demo
+                  </Button>
+                </CardActions>
+              </Card>
+            </Cell>
           </Grid>
         </Fade>
       </div>
