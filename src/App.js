@@ -4,8 +4,8 @@ import LandingPage from "./components/landingpage";
 import AboutMe from "./components/aboutme";
 import Experiences from "./components/experiences";
 import Skills from "./components/skills";
-import Projects from "./components/projects";
 import Footer from "./components/footer";
+import Projects from "./components/projects";
 
 function App() {
   return (
