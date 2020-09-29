@@ -264,7 +264,7 @@ class Projects extends Component {
                     width: "auto",
                     color: "black",
                     background:
-                      "url(https://i.imgur.com/r2ioq4G.png) bottom right 15% no-repeat #46B6AC",
+                      "url(https://i.imgur.com/jxk9JTL.png) bottom right 15% no-repeat #46B6AC",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
@@ -278,13 +278,6 @@ class Projects extends Component {
                     target="_blank"
                   >
                     Github
-                  </Button>
-                  <Button
-                    colored
-                    href="https://github.com/yyhk123/Python-BST/tree/master"
-                    target="_blank"
-                  >
-                    Live Demo
                   </Button>
                 </CardActions>
               </Card>
