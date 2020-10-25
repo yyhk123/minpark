@@ -19,7 +19,7 @@ class Experiences extends Component {
                 >
                   <h2 className="experiences-title">
                     SAMSUNG ELECTRONICS AMERICA <br />
-                    (THRU 3S NETWORK)
+                    (Contingent work)
                   </h2>
                 </Cell>
                 <Cell
