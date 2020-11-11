@@ -316,6 +316,41 @@ class Projects extends Component {
                 </CardActions>
               </Card>
             </Cell>
+
+            <Cell col={4} className="card">
+              <Card
+                shadow={0}
+                style={{
+                  width: "auto",
+                  height: "100%",
+                  margin: "auto",
+                }}
+              >
+                <CardTitle
+                  expand
+                  style={{
+                    width: "auto",
+                    color: "black",
+                    background:
+                      "url(https://i.imgur.com/ktoCnp0.png) bottom right 15% no-repeat #46B6AC",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                  }}
+                ></CardTitle>
+                <CardText>Android Studio - Calculator</CardText>
+                <CardActions border>
+                  <Button
+                    colored
+                    href="https://github.com/yyhk123/CalculatorApp"
+                    target="_blank"
+                  >
+                    Github
+                  </Button>
+                </CardActions>
+              </Card>
+            </Cell>
+
           </Grid>
         </Fade>
       </div>
