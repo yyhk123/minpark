@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/minpark/static/css/main.b8d02660.chunk.css",
-    "main.js": "/minpark/static/js/main.3771bdb4.chunk.js",
-    "main.js.map": "/minpark/static/js/main.3771bdb4.chunk.js.map",
+    "main.js": "/minpark/static/js/main.ef31c760.chunk.js",
+    "main.js.map": "/minpark/static/js/main.ef31c760.chunk.js.map",
     "runtime-main.js": "/minpark/static/js/runtime-main.9db4dcc9.js",
     "runtime-main.js.map": "/minpark/static/js/runtime-main.9db4dcc9.js.map",
     "static/css/2.e4346227.chunk.css": "/minpark/static/css/2.e4346227.chunk.css",
     "static/js/2.ddaf4259.chunk.js": "/minpark/static/js/2.ddaf4259.chunk.js",
     "static/js/2.ddaf4259.chunk.js.map": "/minpark/static/js/2.ddaf4259.chunk.js.map",
     "index.html": "/minpark/index.html",
-    "precache-manifest.c2ea0d442ee1a2644e6e7c6b812dca5a.js": "/minpark/precache-manifest.c2ea0d442ee1a2644e6e7c6b812dca5a.js",
+    "precache-manifest.0763fbb242dce1248eb4d5fa720f41d9.js": "/minpark/precache-manifest.0763fbb242dce1248eb4d5fa720f41d9.js",
     "service-worker.js": "/minpark/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/minpark/static/css/2.e4346227.chunk.css.map",
     "static/css/main.b8d02660.chunk.css.map": "/minpark/static/css/main.b8d02660.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.e4346227.chunk.css",
     "static/js/2.ddaf4259.chunk.js",
     "static/css/main.b8d02660.chunk.css",
-    "static/js/main.3771bdb4.chunk.js"
+    "static/js/main.ef31c760.chunk.js"
   ]
 }
