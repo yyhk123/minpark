@@ -338,7 +338,7 @@ class Projects extends Component {
                     backgroundSize: "cover",
                   }}
                 ></CardTitle>
-                <CardText>Android Studio - Calculator</CardText>
+                <CardText>Android App - Calculator</CardText>
                 <CardActions border>
                   <Button
                     colored
@@ -346,6 +346,43 @@ class Projects extends Component {
                     target="_blank"
                   >
                     Github
+                  </Button>
+                </CardActions>
+              </Card>
+            </Cell>
+
+            <Cell col={4} className="card">
+              <Card
+                shadow={0}
+                style={{
+                  width: "auto",
+                  height: "100%",
+                  margin: "auto",
+                }}
+              >
+                <CardTitle
+                  expand
+                  style={{
+                    width: "auto",
+                    color: "black",
+                    background:
+                      "url(https://i.imgur.com/TMvRTuq.png) bottom right 15% no-repeat #46B6AC",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                  }}
+                ></CardTitle>
+                <CardText>Android App - Connect 5</CardText>
+                <CardActions border>
+                  <Button
+                    colored
+                    href="https://github.com/yyhk123/Connect5App"
+                    target="_blank"
+                  >
+                    Github
+                  </Button>
+                  <Button colored href="https://play.google.com/store/apps/details?id=com.min.connect4" target="_blank">
+                    Play Store
                   </Button>
                 </CardActions>
               </Card>
