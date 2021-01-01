@@ -50,7 +50,7 @@ class Skills extends Component {
                   </td>
                 </tr>
                 <tr>
-                  <td className="graph-item">Java</td>
+                  <td className="graph-item">Java/Kotlin</td>
                   <td className="graph-spacing">
                     <div className="bar-wrap">
                       <div className="bar bar4">70%</div>
