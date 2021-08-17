@@ -27,7 +27,44 @@ class Experiences extends Component {
                   className="mdl-cell--4-col"
                   style={{ width: "calc(33.3333333333% - 16px)" }}
                 >
-                  <h2 className="experiences-date">May 2020 - present</h2>
+                  <h2 className="experiences-date">March 2021 - present</h2>
+                </Cell>
+              </Grid>
+              <section className="expereinces-detail-container">
+                <h3 className="experiences-position">SOFTWARE DEVELOPER</h3>
+                <p className="experiences-detail">
+                  - Assisted in development and maintenance of new APIs for automated 
+                  testings on mobile devices including smartphone, tablets and wearable devices.
+                </p>
+                <p className="experiences-detail">
+                  - Function as a team member in design, development, troubleshoot, test and 
+                  analyze software projects involving mobile application.
+                </p>
+                <p className="experiences-detail">
+                  - Modify existing software to correct errors and reduce time complexity 
+                  for performance and efficiency.
+                </p>
+              </section>
+            </div>
+
+            <div style={{ padding: "8px" }}>
+              <Grid style={{ margin: "0px" }}>
+                <Cell
+                  col={8}
+                  className="mdl-cell--8-col"
+                  style={{ width: "calc(66.6666666667% - 16px)" }}
+                >
+                  <h2 className="experiences-title">
+                    SAMSUNG ELECTRONICS AMERICA <br />
+                    (Contingent work)
+                  </h2>
+                </Cell>
+                <Cell
+                  col={4}
+                  className="mdl-cell--4-col"
+                  style={{ width: "calc(33.3333333333% - 16px)" }}
+                >
+                  <h2 className="experiences-date">May 2020 - March 2021</h2>
                 </Cell>
               </Grid>
               <section className="expereinces-detail-container">
@@ -88,35 +125,7 @@ class Experiences extends Component {
               </section>
             </div>
 
-            <div style={{ padding: "25px 8px 8px 8px" }}>
-              <Grid style={{ margin: "0px" }}>
-                <Cell
-                  col={8}
-                  className="mdl-cell--8-col"
-                  style={{ width: "calc(66.6666666667% - 16px)" }}
-                >
-                  <h2 className="experiences-title">BLUE OCEAN LOGISTICS</h2>
-                </Cell>
-                <Cell
-                  col={4}
-                  className="mdl-cell--4-col"
-                  style={{ width: "calc(33.3333333333% - 16px)" }}
-                >
-                  <h2 className="experiences-date">March 2014 - August 2015</h2>
-                </Cell>
-              </Grid>
-              <section className="expereinces-detail-container">
-                <h3 className="experiences-position">MANAGER'S ASSIST</h3>
-                <p className="experiences-detail">
-                  - Assisted customers in shipping cargo overseas by scheduling
-                  with shipping agents and managed databases.
-                </p>
-                <p className="experiences-detail">
-                  - Communicate with many different agents oversea for
-                  scheduling and shipping out.
-                </p>
-              </section>
-            </div>
+            
           </Fade>
         </div>
       </div>
