@@ -38,7 +38,7 @@ class Experiences extends Component {
                   - Contribute to creating solutions in GraphQL using TypeScript to ensure a smooth orchestration layer experience between our frontend and backend services.
                 </p>
                 <p className="experiences-detail">
-                  - Created Key Performance Indicators (KPI's) using Power Bi to allow business to monitor cart and order services health and utilization.
+                  - Created Key Performance Indicators(KPI's) using Power Bi to allow business to monitor cart and order services health and utilization.
                 </p>
                 <p className="experiences-detail">
                   - Collaborated with cross-functional teams to troubleshoot and resolve technical issues.
