@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/minpark/static/css/main.638f5a56.chunk.css",
+    "main.js": "/minpark/static/js/main.7c77c55a.chunk.js",
+    "main.js.map": "/minpark/static/js/main.7c77c55a.chunk.js.map",
+    "runtime-main.js": "/minpark/static/js/runtime-main.9db4dcc9.js",
+    "runtime-main.js.map": "/minpark/static/js/runtime-main.9db4dcc9.js.map",
+    "static/css/2.e4346227.chunk.css": "/minpark/static/css/2.e4346227.chunk.css",
+    "static/js/2.abb878d5.chunk.js": "/minpark/static/js/2.abb878d5.chunk.js",
+    "static/js/2.abb878d5.chunk.js.map": "/minpark/static/js/2.abb878d5.chunk.js.map",
+    "index.html": "/minpark/index.html",
+    "precache-manifest.19829055f7d5d5c7622573c9dd88fe8e.js": "/minpark/precache-manifest.19829055f7d5d5c7622573c9dd88fe8e.js",
+    "service-worker.js": "/minpark/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/minpark/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.638f5a56.chunk.css.map": "/minpark/static/css/main.638f5a56.chunk.css.map",
+    "static/js/2.abb878d5.chunk.js.LICENSE.txt": "/minpark/static/js/2.abb878d5.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/minpark/static/media/main.1552140c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9db4dcc9.js",
+    "static/css/2.e4346227.chunk.css",
+    "static/js/2.abb878d5.chunk.js",
+    "static/css/main.638f5a56.chunk.css",
+    "static/js/main.7c77c55a.chunk.js"
+  ]
+}
