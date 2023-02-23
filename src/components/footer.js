@@ -35,8 +35,8 @@ class Footer extends Component {
                 <ListItem>
                   <ListItemContent>
                     <IoIosCall />
-                    <Button href="tel:+13106135525" className="btn">
-                      (310) 613-5525
+                    <Button href="tel:+12136159993" className="btn">
+                      (213) 615-9993
                     </Button>
                   </ListItemContent>
                 </ListItem>

@@ -127,7 +127,6 @@ class Projects extends Component {
                 <CardActions border>
                   <Button
                     colored
-                    colored
                     href="https://github.com/yyhk123/4-in-a-line"
                     target="_blank"
                   >
@@ -420,6 +419,43 @@ class Projects extends Component {
                   </Button>
                   <Button colored href="https://play.google.com/store/apps/details?id=com.min.idolcup" target="_blank">
                     Play Store
+                  </Button>
+                </CardActions>
+              </Card>
+            </Cell>
+
+            <Cell col={4} className="card">
+              <Card
+                shadow={0}
+                style={{
+                  width: "auto",
+                  height: "100%",
+                  margin: "auto",
+                }}
+              >
+                <CardTitle
+                  expand
+                  style={{
+                    width: "auto",
+                    color: "black",
+                    background:
+                      "url(https://i.imgur.com/96AHGFI.jpg) bottom right 15% no-repeat #46B6AC",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                  }}
+                ></CardTitle>
+                <CardText>Online Multi-User Paint</CardText>
+                <CardActions border>
+                  <Button
+                    colored
+                    href="https://github.com/yyhk123/paint"
+                    target="_blank"
+                  >
+                    Github
+                  </Button>
+                  <Button colored href="https://yyhk123.github.io/paint/" target="_blank">
+                    Live Demo
                   </Button>
                 </CardActions>
               </Card>
